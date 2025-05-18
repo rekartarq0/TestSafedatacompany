@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import "~@fortawesome/fontawesome-free/css/all.css"; */
+
+[x-cloak] {
+    display: none;
+}
+
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+.custom-confirm-box {
+    font-family: "DroidKufi", sans-serif;
+    text-align: right;
+    direction: rtl;
+}
+
+.custom-message {
+    font-family: "DroidKufi", sans-serif;
+    text-align: right;
+    direction: rtl;
+}
+
+.el-message-box__title {
+    font-family: "DroidKufi", sans-serif;
+    text-align: right;
+}
+
+.el-message-box__btns {
+    font-family: "DroidKufi", sans-serif;
+    text-align: right;
+}
+
+.el-button {
+    margin: 2px;
+}
+
+@font-face {
+    font-family: "NRT";
+    src: url("/assets/font/NRT-Reg.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DroidKufi";
+    src: url("/assets/font/DroidKufi-Regular.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sarchia_Qaisy_bold";
+    src: url("/assets/font/72_Sarchia_Qaisy.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
