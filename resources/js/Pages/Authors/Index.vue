@@ -146,7 +146,7 @@ function edit(id) {
     </AppLayout>
 
     <el-dialog class="font-droidkufi" dir="rtl" v-model="dialogFormVisible" title="فۆڕمی زیاکردنی نووسەرەکان"
-        width="700" align-center="true" :close-on-click-modal="false">
+        width="700" align-center="true" :close-on-click-modal="false" @close="resetForm">
         <el-form :model="form" @keydown.enter="submit">
             <el-form-item label-position="left" label="ناوی نووسەر" :label-width="formLabelWidth">
                 <el-input clearable v-model="form.name" />
